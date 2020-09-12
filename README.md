@@ -5,9 +5,9 @@ Part of the [Zakhar Project](https://github.com/an-dr/zakhar)
 
 The repository is dividede by 3 subrepositories:
 
-- [zakharos_core](zakharos_core/README.md) - set of ROS-packages with main programs (using it you can run the robot's mind)
-- [zakhar_pycore](zakhar_pycore/README.md) - Python modules provides interaction with the hardware
-- [zakhar_service](zakhar_service/README.md) - repo for service, debugging and testing
+- [zakharos_core](https://github.com/an-dr/zakharos_core) - set of ROS-packages with main programs (using it you can run the robot's mind)
+- [zakhar_pycore](https://github.com/an-dr/zakhar_pycore) - Python modules provides interaction with the hardware
+- [zakhar_service](https://github.com/an-dr/zakhar_service) - repo for service, debugging and testing
 
 ## Requrements
 
