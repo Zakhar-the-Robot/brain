@@ -1,12 +1,12 @@
 [submodule "zakharos_core"]
 	path = zakharos_core
-	url = git@github.com:an-dr/zakharos_core.git
+	url = ../zakharos_core.git
 [submodule "zakhar_service"]
 	path = zakhar_service
-	url = git@github.com:an-dr/zakhar_service.git
+	url = ../zakhar_service.git
 [submodule "zakhar_pycore"]
 	path = zakhar_pycore
-	url = git@github.com:an-dr/zakhar_pycore.git
+	url = ../zakhar_pycore.git
 [submodule "schematic/platform/zakhar_kicadlib"]
 	path = schematic/platform/zakhar_kicadlib
 	url = ../zakhar_kicadlib.git
