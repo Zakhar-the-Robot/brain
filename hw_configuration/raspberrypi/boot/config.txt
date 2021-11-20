@@ -1,0 +1,33 @@
+[all]
+# Boot:
+start_x=1
+
+# Video:
+gpu_mem=128
+hdmi_force_hotplug=1
+hdmi_group=2
+hdmi_mode=85
+
+# I2c:
+dtparam=i2c_arm=on
+dtparam=i2c_arm_baudrate=10000
+dtoverlay=i2c3
+
+# Audio:
+dtparam=audio=on
+
+[pi4]
+# Video:
+dtoverlay=vc4-fkms-v3d
+max_framebuffers=2
+
+# Underclocking  and Undervoltage:
+# It is needed for stable working from a cheap power bank, can be adjusted
+# depending on used power source
+arm_freq=1200
+over_voltage=-2
+h264_freq=360
+isp_freq=360
+isp_freq=360
+v3d_freq=360
+hevc_freq=360
