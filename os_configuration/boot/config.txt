@@ -1,0 +1,56 @@
+[all]
+# Boot
+#
+# X in case of direct connection to the monitor. Probably will be removed later
+start_x=1
+
+# Audio
+#
+# We dont need audio
+dtparam=audio=off
+
+# Video
+#
+# Default config
+gpu_mem=128
+hdmi_force_hotplug=1
+hdmi_group=2
+hdmi_mode=85
+
+# I2C for the Service Display
+# 
+# GPIO2 (Physical Pin 3) -- SDA OLED screen
+# GPIO3 (Physical Pin 5) -- SCL OLED screen
+dtparam=i2c_arm=on
+
+# SPI for the CAN module
+#
+# CE0 (Physical Pin 24) --------- CS CAN module
+# MISO (Physical Pin 21) -------- SO CAN module
+# MOSI (Physical Pin 19) -------- SI CAN module
+# SCLK (Physical Pin 23) -------- SCK CAN module
+# GPIO-BCM-12 (Physical Pin 32) - INT CAN module
+dtparam=spi=on
+dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=12
+dtoverlay=spi-bcm2835-overlay
+
+
+[pi4]
+# Video
+#
+# Default config for Pi4
+dtoverlay=vc4-fkms-v3d
+max_framebuffers=2
+
+# Underclocking  and Undervoltage
+#
+# It is needed for stable working from a cheap power bank, can be adjusted
+# depending on used power source
+arm_freq=1200
+over_voltage=-2
+h264_freq=360
+isp_freq=360
+isp_freq=360
+v3d_freq=360
+hevc_freq=360
+enable_uart=1
