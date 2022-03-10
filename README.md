@@ -1,6 +1,6 @@
 # Zakhar the Robot: Brain
 
-[![Main - Page](https://img.shields.io/badge/Project-Zakhar%20the%20Robot-blue)](https://zakhar-the-robot.github.io/doc "See the project on Github") [![View - Documentation](https://img.shields.io/badge/Documentation-orange)](https://zakhar-the-robot.github.io/doc/docs/parts/brain "Go to Documentation")
+[![Main - Page](https://img.shields.io/badge/Project-Zakhar%20the%20Robot-blue)](https://zakhar-the-robot.github.io/doc "See the project on Github") [![View - Documentation](https://img.shields.io/badge/Documentation-orange)](https://zakhar-the-robot.github.io/doc/docs/gears/brain "Go to Documentation")
 
 Software for Zakhar's brain. The "soul" of the robot.
 

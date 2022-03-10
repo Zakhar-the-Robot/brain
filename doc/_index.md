@@ -35,4 +35,4 @@ For the development it is recommended to use VSCode with installed [recomended e
 
 ## Schematic
 
-<img src="_index_schematic.svg" alt="platform_schematic" width="800">
+<img src="index_schematic.svg" alt="platform_schematic" width="800">
